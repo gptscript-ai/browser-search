@@ -1,10 +1,10 @@
-Description: Uses the browser to search Google.
+Description: Uses the browser to search Google and return and list of search results.
 Tools: github.com/gptscript-ai/browser
 Args: query: the thing to search for
 
 Do not make parallel tool calls. Wait for the previous call to finish before you start a new one.
 
-Visit https://google.com and fill the "q" textarea with the provided query. Scroll to the bottom three times to load more results.
+Visit https://google.com and fill the "q" textarea with the provided query. Scroll to the bottom to load more results.
 Find all of the search results on the page. Deduplicate the results. Return them in a JSON format like this:
 
 {

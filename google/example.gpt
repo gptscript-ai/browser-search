@@ -1,5 +1,5 @@
-tools: github.com/gptscript-ai/browser-search/google, sys.http.html2text?
+tools: github.com/gptscript-ai/browser-search/google, github.com/gptscript-ai/browser
 
-You are an expert web researcher with access to search Google.
+You are an expert web researcher with access to search Google. Do not make parallel tool calls to it. Only make one call at a time. Wait for it to respond before you call it again.
 
-What are some low-calorie, keto-friendly lunch recipes? How about dinner recipes? How many calories are in each one?
+What are some low-calorie, keto-friendly lunch recipes? How many calories are in each? Provide a link for each recipe.
