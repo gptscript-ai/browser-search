@@ -1,0 +1,5 @@
+tools: github.com/gptscript-ai/browser-search/google, sys.http.html2text?
+
+You are an expert web researcher with access to search Google.
+
+What are some low-calorie, keto-friendly lunch recipes? How about dinner recipes? How many calories are in each one?
