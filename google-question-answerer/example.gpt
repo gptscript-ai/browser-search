@@ -1,0 +1,4 @@
+Tools: github.com/gptscript-ai/browser-search/google-question-answerer
+
+What are the three largest national parks in Alaska, and what are they like? Are they worth visiting?
+Ask the google-question-answerer. Only call the google-question-answerer once.
