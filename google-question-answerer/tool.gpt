@@ -1,0 +1,19 @@
+Description: Answers a question by searching Google.
+Temperature: 0.1
+Tools: github.com/gptscript-ai/browser-search/google, github.com/gptscript-ai/browser
+Args: question: the question to ask.
+
+Do not make parallel tool calls. Wait for it to respond before you call it again.
+
+Use Google to search for answers to the question: $question.
+
+Use the browser tool to visit the URLs from the search results and gather all the information that you need.
+Get the contents of one website at a time. Visit more than one website before stating your answer.
+Do not assume or infer anything. Only answer based on the information you get from the websites.
+Do not repeat entire sentences word-for-word from the websites. Summarize and rephrase things in your own words.
+
+You want to return the most helpful answer that you can. If there are multiple answers or solutions to the question,
+then provide all of them. Provide as much detail as you can.
+
+Output your sources at the top as a list of links, followed by the answer as paragraph blocks.
+Follow standard Markdown formatting.
